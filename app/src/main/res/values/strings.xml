@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login_pokemon_name">Pokemono vardas:</string>
+    <string name="login_pokemon_type">Pokemono tipas:</string>
+    <string name="login_pokemon_type_vegan">Veganas</string>
+    <string name="login_pokemon_type_two_heads">Dvi galvos</string>
+    <string name="login_pokemon_type_four_legs">Keturios kojos</string>
+    <string name="login_pokemon_class">Pokemono klase:</string>
+    <string name="login_pokemon_class_fire">Ugnis</string>
+    <string name="login_pokemon_class_water">Vanduo</string>
+    <string name="login_pokemon_class_air">Oras</string>
+    <string name="login_pokemon_cp">Pokemono galia:</string>
+    <string name="login_pokemon_weight">Pokemono svoris:</string>
+    <string name="login_pokemon_height">Pokemono ugis:</string>
+
+    <string-array name="pokemon_array_cp">
+        <item>Stiprus</item>
+        <item>Vidutinis</item>
+        <item>Silpnas</item>
+    </string-array>
+</resources>

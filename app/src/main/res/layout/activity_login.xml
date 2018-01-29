@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_name" />
+
+    <EditText
+        android:id="@+id/login_pokemon_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_type" />
+
+    <CheckBox
+        android:id="@+id/login_pokemon_type_vegan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/login_pokemon_type_vegan" />
+
+    <CheckBox
+        android:id="@+id/login_pokemon_type_two_heads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_type_two_heads" />
+
+    <CheckBox
+        android:id="@+id/login_pokemon_type_four_legs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_type_four_legs" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_class" />
+
+    <RadioGroup
+        android:id="@+id/login_pokemon_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/login_pokemon_class_fire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/login_pokemon_class_fire" />
+
+        <RadioButton
+            android:id="@+id/login_pokemon_class_water"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_pokemon_class_water" />
+
+        <RadioButton
+            android:id="@+id/login_pokemon_class_air"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_pokemon_class_air" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_cp" />
+
+    <Spinner
+        android:id="@+id/pokemon_array_cp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pokemon_array_cp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_weight" />
+
+    <EditText
+        android:id="@+id/pokemon_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_height" />
+
+    <EditText
+        android:id="@+id/pokemon_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+
+</LinearLayout>
