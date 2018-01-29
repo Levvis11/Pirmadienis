@@ -102,5 +102,6 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal" />
 
+    <!-- komentaras -->
 
 </LinearLayout>
